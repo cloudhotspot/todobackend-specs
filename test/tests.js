@@ -39,7 +39,7 @@ describe('Create Todo Item', function() {
   });
 
   it('should receive a location hyperlink', function() {
-    return assert(result, 'header.location').to.match(/^https?:\/\/.+\/todos\/[\d]+\/$/);
+    return assert(result, 'header.location').to.match(/^https?:\/\/.+\/todos\/[\d]+$/);
   });
 
   it('should create the item', function() {
@@ -51,7 +51,7 @@ describe('Create Todo Item', function() {
   });
 
   after(function () {
-    //return del(url);
+    return del(url);
   });
 });
 
@@ -76,7 +76,7 @@ describe('Update Todo Item', function() {
   });
 
   after(function () {
-    // return del(url);
+    return del(url);
   });
 });
 
