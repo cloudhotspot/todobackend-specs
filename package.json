@@ -1,0 +1,22 @@
+{
+  "name": "todobackend-acceptance-tests",
+  "version": "1.0.0",
+  "description": "Todo Backend Acceptance Tests",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Justin Menga <justin.menga@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.3",
+    "superagent": "^1.4.0",
+    "superagent-promise": "^1.0.3"
+  }
+}
